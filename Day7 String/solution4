@@ -1,0 +1,34 @@
+THIS QUESTION IS TAKEN FROM CODESTUDIO
+public class Solution4 
+{
+	public static String reverseString(String str) 
+	{
+		List<String> s = new ArrayList<String>();
+        String t ="";
+        for (int i =0;i<=str.length();i++){
+            if(i==str.length()){ 
+                if(t!=""){
+                     s.add(t);
+                }
+              }
+            else{
+                if(str.charAt(i)==' '){
+                    if(t!=""){
+                        s.add(t);
+                        t="";
+                    }
+                }
+                else{
+                    t+=str.charAt(i);
+                }
+            }
+        }
+        Collections.reverse(s);
+        String ans="";
+        for(int i=0;i<s.size();i++){
+            ans+=s.get(i);
+            ans+=" ";
+        }
+        return ans;
+	}
+}
