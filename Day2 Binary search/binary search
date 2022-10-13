@@ -1,0 +1,52 @@
+This is an example of binary search in java where we are going to search an element from an array.
+import java.lang.*;
+import java.util.*;
+   class Searching
+   {
+    int a[]=new int[10];
+    int key;
+    void getdata(){
+    Scanner sc =new  Scanner(System.in);
+    int i;
+    for(i=0;i<5;i++){   
+      System.out.println("ENTER NUMBER :");
+      a[i]=sc.nextInt();
+    }
+    System.out.println("Enter the number that you want to search");
+    key=sc.nextInt();
+    }
+    void search()
+    {
+     int i,j,mid,flag,pos;
+     i=0;
+     j=4;
+     flag=0;
+     pos=0;
+     while(i<=j&&flag==0)
+     {
+         mid=(i+j)/2;
+         if(a[mid]==key)
+         {
+             flag=1;
+             pos=mid+1;
+         }
+         if(a[mid]>key)
+          j=mid-1;
+         if(a[mid]<key)
+          i=mid+1;
+     }
+     if(flag==0)
+     System.out.println("NUMBER NOT FOUND");
+    
+     else
+       System.out.println("NUMBER FOUND AT "+pos);
+    }
+}
+    public class Binarysrch{
+        public static void main(String args[]){
+            Searching s2=new Searching();
+            s2.getdata();
+            s2.search();
+            
+        }
+    }
