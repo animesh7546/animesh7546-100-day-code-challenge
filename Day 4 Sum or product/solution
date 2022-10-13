@@ -1,0 +1,25 @@
+this question is taken from codestudio
+port java.io.*; 
+public class Solution {
+
+	public static long sumOrProduct(int n, int q) {
+
+	 long result;
+     int mod = 1000000007;
+      
+        if(q == 1)
+        {
+            result = (n*(n+1)) / 2;
+            result %= mod;
+        } else
+        {
+            result =1;
+            
+             for(int i = 1;i<=n;i++)
+             {
+                 result =((result)% mod *(i%mod)) % mod;
+             }
+        }         
+          return result; 
+    }
+}
