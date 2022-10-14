@@ -1,0 +1,18 @@
+A matrix is a two-dimensional data object having m rows and n columns, therefore a total of m*n values.
+If most of the values of a matrix are 0 then we say that the matrix is sparse. Consider a definition of Sparse
+where a matrix is considered sparse if the number of 0s is more than half of the elements in the matrix.
+To check whether a matrix is a sparse matrix, we only need to check the total number of elements that are equal 
+to zero. If this count is more than (m * n)/2,we return true. 
+Input : 1 0 3
+        0 0 4
+        6 0 0
+Output : Given Matrix is a sparsematrix
+There are 5 zeros. This count
+is more than half of matrix
+size.
+Input : 1 2 3
+        0 7 8
+        5 0 7 
+Output : Given Matrix is a sparsematrix        
+Time Complexity: O(m*n) 
+Auxiliary Space: O(1)        
