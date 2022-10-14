@@ -1,0 +1,24 @@
+You have been given a random integer arraylist(ARR) of size N and an integer X. You need to search for the integer
+x in the gievn arraylist using 'Linear search'. You have been  required to return  the index at which X is present
+in the arraylist. If X has multiple occurences in the arraylist, then you need to return the index at which the 
+first occurences of X would be encountered. In case X is not present in the arraylist, then return -1. 
+'Linear search' is a method for finding an element within an arraylist. It is sequentially checks each element of
+the arraylist until a match id found or the whole arraylist has been searched.
+Sample Input 1:
+1
+7
+2 13 4 1 3 6 28
+3
+Sample Output 1:
+4
+Sample Input 2:
+2
+7
+2 13 4 1 3 6 28
+9
+5
+7 8 5 9 5      
+5
+Sample Output 2:
+-1
+2
