@@ -1,0 +1,17 @@
+you are given number 'N' and a query 'Q'.If 'Q'is 1,then you have to return the sum of all integers from 1 to 'N'
+else if 'Q' is equal to 2 then you have to return the product of the all the integers from 1 to 'N'.
+Since the product can be very large ,return it modulo 10^9+7.
+Sample input 1:
+2
+4 1
+4 2
+Sample output 1:
+10
+24
+Sample input 2:
+2
+5 1
+5 2
+Sample output 2:
+15
+120
