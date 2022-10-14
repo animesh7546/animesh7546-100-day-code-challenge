@@ -1,0 +1,19 @@
+You are given a string of length N. You need to reverse the string word by word. There can be multiple spaces 
+between two words and there can be leading or tariling spaces but in the output reversed string you need to put a 
+single space between two words, and your reverses string should not contain leading or trailing spaces.
+Sample Input 1 :
+2
+Welcome   to Coding Ninjas
+   I am   a    star
+Sample Output 1:
+Ninjas Coding to Welcome
+star a am I
+Explanation For Sample Input 1:
+In the first test case, you need to reduce multiple spaces between two words to a single space in the reversed string and observe how the multiple spaces, leading and trailing spaces have been removed.
+
+In the second test case, Your reversed string should not contain leading or trailing spaces.
+Sample Input 2 :
+1
+Hello  World!!
+Sample Output 2:
+World!! Hello
