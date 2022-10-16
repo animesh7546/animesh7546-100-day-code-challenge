@@ -1,0 +1,15 @@
+In this program we find number of vowel from sentense that are inpputed by user.
+
+
+Test case 1:
+Enter string: I am remp
+No of vowel in given sentence is 3
+Test pass
+Test case 2:
+Enter string: i am remp
+No of vowel in given sentence is 3
+Test pass
+Test case 3:
+Enter string: I AM REMP
+No of vowel in given sentence is 3
+Test pass
