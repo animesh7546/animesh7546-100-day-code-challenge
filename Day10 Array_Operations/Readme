@@ -1,0 +1,8 @@
+ In this program performed given opertions
+   1. Insert element at specific position
+   2. Delete elemnt from specific position
+   3. Display
+
+Test : Previously I take input an array {1,2,3,4,5}
+then insert 10 at 4th index values of array after then deleted a element that index value is 3 and at 
+last after operation done, elements are {1,2,10,4,5} 
